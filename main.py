@@ -27,10 +27,16 @@ async def get_suggestions():
         {
             "id": 1,
             "name": "About Amal"
+            "description": """
+Based in Toronto, I am Amal Parameswaran, a Software Developer with a Bachelor's in Software Engineering from Ontario Tech University, where I achieved highest distinctions. My career has been dedicated to engineering innovative software solutions, with a strong background in developing resilient backends and automating cloud deployments using Python, FastAPI, Azure, AWS, and GCP. My roles at AnalyticSmart, QA Consultants, and CIBC have honed my skills in Java, Python, JavaScript, Django, Flask, React, and database management, alongside a passion for continuous learning and embracing new technologies.
+
+I thrive on collaboration and am always looking to connect with tech enthusiasts and professionals. Feel free to reach out if you're interested in discussing technology, potential collaborations, or just sharing insights.
+                """
         }, 
         {
             "id": 2,
-            "name": "Where has Amal worked?"
+            "name": "Where has Amal worked?",
+            "description": "Analyticsmart, QA Consultants, Ontario Tech University, CIBC"
         }
     ]
     return suggestions
