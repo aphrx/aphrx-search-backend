@@ -10,7 +10,11 @@ async def root():
 @app.get("/suggestions")
 async def get_suggestions():
     suggestions = [
-        "About Amal",
-        "Where has Amal worked?"
+        {
+            "name": "About Amal"
+        }, 
+        {
+            "name": "Where has Amal worked?"
+        }
     ]
     return suggestions
