@@ -11,9 +11,11 @@ async def root():
 async def get_suggestions():
     suggestions = [
         {
+            "id": 1,
             "name": "About Amal"
         }, 
         {
+            "id": 2,
             "name": "Where has Amal worked?"
         }
     ]
